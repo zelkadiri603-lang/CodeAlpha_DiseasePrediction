@@ -12,7 +12,7 @@ An end-to-end machine learning pipeline built on the UCI Cleveland dataset to pr
 
 1. **Preprocessing & Cleaning**:
    - Imputed missing values in `ca` and `thal` using median statistics.
-   - Applied `log1p` transformation to reduce skewness on `oldpeak` and `chol`.
+   - Applied `log1p` transformation to reduce skewness on `oldpeak`
    - Encoded categorical variables via one-hot encoding.
 
 2. **Feature Engineering**:
